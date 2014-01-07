@@ -4,16 +4,6 @@
  */
 
 
-/* Global app backgrounbd */
-
-table-view,
-table-view-cell,
-scroll-view,
-text-view {
-    background-color: $app-bg;
-}
-
-
 /* Containers */
 
 .container {
@@ -38,13 +28,14 @@ navigation-bar {
 navigation-bar title {
     color: $navbar-text-color;
     font-family: $navbar-text-font;
-    font-size: $navbar-text-size;
-    font-weight: $navbar-text-weight;
+    font-size: $navbar-text-size;    
+    font-weight: $navbar-title-text-weight;
 }
 
 navigation-bar button-appearance {
     font-family: $navbar-bar-button-font;
     color: $navbar-bar-button-color;
+    font-weight: $navbar-text-weight;
 }
 
 

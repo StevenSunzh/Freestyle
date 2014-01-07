@@ -50,7 +50,11 @@ Freestyle/
 ├── scss/
 │   ├── default.scss
 │   ├── base.scss
+│   ├── buttons.scss
+│   ├── collections.scss
 │   ├── forms.scss
+│   ├── icons.scss
+│   ├── tables.scss
 │   ├── type.scss
 │   └── variables.scss
 └── PixateFreestyleShowcase/

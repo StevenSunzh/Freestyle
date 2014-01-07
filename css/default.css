@@ -26,12 +26,6 @@
  * Base styles
  * --------------------------------
  */
-/* Global app backgrounbd */
-table-view,
-table-view-cell,
-scroll-view,
-text-view {
-  background-color: white; }
 
 /* Containers */
 .container {
@@ -51,11 +45,12 @@ navigation-bar title {
   color: white;
   font-family: "Avenir";
   font-size: 17pt;
-  font-weight: light; }
+  font-weight: bold; }
 
 navigation-bar button-appearance {
   font-family: "Avenir";
-  color: white; }
+  color: white;
+  font-weight: light; }
 
 /* Tab Bar */
 tab-bar {
